@@ -1,0 +1,10 @@
+package com.myblogging.repository;
+
+import com.myblogging.entity.Post;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PostRepository extends JpaRepository<Post,Long> {
+
+}
+
+
